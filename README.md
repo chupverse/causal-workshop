@@ -1,4 +1,4 @@
-# Best practices and recent advances in causal analyses, October 13-16, 2025 - Poitiers
+# Best practices and recent advances in causal analyses
 
 <div style="text-align: justify">
 
