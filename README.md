@@ -1,3 +1,7 @@
+<p align="center">
+<img src="https://github.com/chupverse/.github/blob/main/profile/logoCHUP.png" width="250"> 
+</p>
+
 # Best practices and recent advances in causal analyses
 
 This page is devoted to the practical phase of the Inserm workshop related to "Best practices and recent advances in causal analyses". Four session are organised. This repsitory aims to share the supports used during the three training days.
