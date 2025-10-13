@@ -1,0 +1,45 @@
+dag {
+bb="0,0,1,1"
+"Concomitant treatment" [latent,pos="0.762,0.809"]
+"PAO2/FIO2" [pos="0.394,0.552"]
+Age [pos="0.567,0.764"]
+Alcohol [pos="0.864,0.591"]
+BMI [pos="0.192,0.592"]
+Diabetes [pos="0.406,0.823"]
+Gender [pos="0.068,0.312"]
+Glasgow [pos="0.550,0.400"]
+Group [exposure,pos="0.319,0.105"]
+Injury [pos="0.227,0.434"]
+Leukocyte [pos="0.700,0.368"]
+Smoking [pos="0.839,0.285"]
+VAP [outcome,pos="0.657,0.115"]
+"Concomitant treatment" -> Leukocyte
+"PAO2/FIO2" -> Group
+"PAO2/FIO2" -> VAP
+Age -> "Concomitant treatment"
+Age -> Alcohol
+Age -> BMI
+Age -> Glasgow
+Age -> Group
+Age -> Leukocyte
+Age -> Smoking
+Alcohol -> BMI
+BMI -> VAP
+Diabetes -> "Concomitant treatment"
+Diabetes -> BMI
+Gender -> Alcohol
+Gender -> BMI
+Gender -> Diabetes
+Gender -> Injury
+Gender -> Smoking
+Gender -> VAP
+Glasgow -> Group
+Glasgow -> VAP
+Group -> VAP
+Injury -> "PAO2/FIO2"
+Injury -> Glasgow
+Injury -> Group
+Injury -> VAP
+Leukocyte -> Group
+Smoking -> VAP
+}
